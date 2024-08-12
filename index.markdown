@@ -71,7 +71,7 @@ a {
 </div>
 
 <div class="teaser">
-<img class="teaser" src="/assets/billiards_teaser.gif" />
+<img class="teaser" src="{{'/assets/billiards_teaser.gif' | relative_url}}" />
 </div>
 <div style="text-align: center;">
 The variation of the initial condition of the billiards table and the successful trajectories resulting from executing policy output. The red line tracks the movement of the target ball and the white line tracks the movement of the cue ball.
@@ -97,14 +97,14 @@ div.figure {
 </style>
 
 <div class="figure">
-<img src="/assets/billiards_landscape.jpg" />
+<img src="{{'/assets/billiards_landscape.jpg' | relative_url}}" />
 </div>
 <div>
 <b>Left:</b> a view of a physically-simulated billiards table with 1-dimensional state and action variables. <b>Right:</b> the state-action reward landscape corresponding to the simplified billiards environment. Dark regions indicate high reward at the state-action coordinate. 
 </div>
 
 <div class="figure">
-<img src="/assets/billiards_summary.jpg" />
+<img src="{{'/assets/billiards_summary.jpg' | relative_url }}"/>
 </div>
 <div>
 An overview of policy optimization iterations with a mixture-of-experts policy and elite samples from off-policy experience replay buffer.
