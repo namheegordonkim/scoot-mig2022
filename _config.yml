@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : ""
-  email            :
+  email            : "namhee.kim@aalto.fi"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
