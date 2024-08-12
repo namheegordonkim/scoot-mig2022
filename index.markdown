@@ -14,17 +14,30 @@ div {
 
 div.author {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 div.affiliation {
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 0.8rem;
     vertical-align: middle;
 }
+
+/* @media (min-width:320px) {
 div.name {
     text-transform: uppercase;
+    width: 100%;
 }
+} */
+
+@media (min-width:600px) {
+div.name {
+    text-transform: uppercase;
+    /* margin-right: auto; */
+}
+}
+
 span.affiliation {
     size: 1px;
 }
@@ -41,7 +54,10 @@ div.teaser {
 
 img.teaser {
     overflow: hidden;
+    object-fit: cover;
     width:40%;
+    min-width: 300px;
+    /* min-height: 200px; */
     margin-top:-50px;
     margin-bottom: -50px;
     /* margin-left: auto;
@@ -68,13 +84,13 @@ a {
 <div class="affiliation">{{author.affiliation}}</div>
 </div>
 {% endfor %}
-</div>
 
 <div class="teaser">
 <img class="teaser" src="{{'/assets/billiards_teaser.gif' | relative_url}}" />
 </div>
 <div style="text-align: center;">
 The variation of the initial condition of the billiards table and the successful trajectories resulting from executing policy output. The red line tracks the movement of the target ball and the white line tracks the movement of the cue ball.
+</div>
 </div>
 
 ## Paper: [HTML](https://dl.acm.org/doi/fullHtml/10.1145/3561975.3562943)
