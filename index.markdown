@@ -50,6 +50,7 @@ div.teaser {
     align: center;
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 img.teaser {
