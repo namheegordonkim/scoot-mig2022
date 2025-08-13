@@ -23,7 +23,7 @@ subtitle: # site tagline that appears below site title in masthead
 name: "Nam Hee Kim"
 description: "In Proceedings to ACM SIGGRAPH MIG 2022"
 seo_title: "ACM SIGGRAPH Motion Interaction and Games Paper on Reinforcement Learning for Billiards"
-seo_description: "reinforcement learning, billiards, computational pool, games, robotics, control, animation, machine learning, deep learning, neural networks"
+seo_description: "reinforcement learning, billiards, computational pool, games, robotics, control, animation, machine learning, deep learning, neural networks, advantage, policy gradient, AWR, PPO, SIGGRAPH, MIG, motion control"
 url: "https://namheegordonkim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/scoot-mig2022"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
